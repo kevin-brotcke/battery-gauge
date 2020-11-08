@@ -1,9 +1,14 @@
 {
-    "name": "Battery Gauge",
-    "short_name": "Battery Gauge",
-    "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "fullscreen",
+    "icons": [{
+        "src": "img/gauge-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "name": "Battery Gauge",
     "scope": "/battery-gauge/",
-    "start_url": "/"
+    "short_name": "Battery Gauge",
+    "start_url": "/",
+    "theme_color": "#2196f3"
 }
